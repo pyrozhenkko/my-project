@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="test-site, initial-scale=1.0">
+    <meta name="author", content="я">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Міні веб сайт</h1>
+    </center>
+    <div>
+        <table>
+            <tr>
+                <td>
+                    <img src="https://itproger.com/img/intensivs/front-end.svg">
+                </td>
+                <td>
+                    <h3>Інформація про  <mark>зображення</mark>:</h3>
+                    <hr>
+                    <details>
+                        <summary>Детальніше</summary>
+                        <p>Більше фото із зображеннями про інтенсив</p>
+                    </details>
+                    <audio src="" controls></audio>
+                </td>
+            </tr>
+             <tr>
+                <td>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_R5a-Kc0pRc?si=C0s_WJJtZTnBm1zT&amp;start=13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </td>
+                <td>
+                    <h3>Наші переваги:</h3>
+                    <ul>
+                        <li>Круті <a href="">ціни;</a></li>
+                        <li>Великий вибір;</li>
+                        <li>Хороші спеціалісти;</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+        <h2 >Зареєструватися на захід:</h2>
+        <form action="" method="get">
+            <label for="name">Ім'я</label>
+            <input type="text" name="name" id="name" placeholder="Введіть ім'я">
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Введіть email">
+            <br>
+            <label for="password">Пароль</label>
+            <input type="password" name="password" id="password" placeholder="">
+            <br>
+            <label for="file_id">Фото профілю</label>
+            <input type="file" name="file" id="file_id" placeholder="">
+            <br>
+            <input list="exp" placeholder="Досвід програмування">
+            <datalist id="exp">
+                <option value="1 рік"></option>
+                <option value="2 роки"></option>
+                <option value="3-4 роки"></option>
+                <option value="більше 5 років"></option>
+            </datalist>
+            <br>
+            <select name="list" id="list_id">
+                <option value="" selected disabled>Улюблена мова</option>
+                <option value="">PHP</option>
+                <option value="">JavaScript</option>
+                <option value="">C#</option>
+            </select>
+            <br>
+            <input type="checkbox" name="check" id="check_id">
+            <label for="check_id">Користувацькі умови</label>
+            <br>
+            <button type="submit">Відправити</button>
+            <button type="reset">Очистити</button>
+
+        </form>
+    </div>
+
+</body>
+</html>
